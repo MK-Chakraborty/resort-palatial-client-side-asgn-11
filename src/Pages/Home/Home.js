@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Carousel, Col, Container, ListGroup, Row } from 'react-bootstrap';
+import { Carousel, Col, Container, ListGroup, Row, Spinner } from 'react-bootstrap';
 import img1 from '../../images/banner-1.png';
 import img2 from '../../images/banner-2.png';
 import img3 from '../../images/banner-3.png';
@@ -19,6 +19,9 @@ const Home = () => {
 
     return (
         <Container fluid className="px-0">
+
+            {/* Slider Part */}
+
             <Carousel fade variant="dark" interval={1000}>
                 <Carousel.Item>
                     <img
@@ -47,12 +50,17 @@ const Home = () => {
             </Carousel>
 
             <Container className="py-5">
+
+                {/* Offers Part */}
+
                 <h2 className="fs-2 fw-bold pb-5"><span className="border-0 border-bottom border-3 border-danger">ALL OFFERS</span></h2>
                 <div className="d-flex flex-wrap justify-content-around my-5">
                     {
-                        offers.map(offer => <Offer key={offer._id} offer={offer}></Offer>)
+                        offers.length ? offers.map(offer => <Offer key={offer._id} offer={offer}></Offer>) : <Spinner animation="border" variant="danger" />
                     }
                 </div>
+
+                {/* Highlights Part */}
 
                 <h2 className="fs-2 fw-bold pb-5"><span className="border-0 border-bottom border-3 border-danger">HIGHLIGHTS</span></h2>
                 <Container className="mb-5">
@@ -70,6 +78,8 @@ const Home = () => {
                         </Col>
                     </Row>
                 </Container>
+
+                {/* Galary Part */}
 
                 <h2 className="fs-2 fw-bold pb-4"><span className="border-0 border-bottom border-3 border-danger">PHOTO GALARY</span></h2>
                 <Carousel variant="light" interval={1000}>
