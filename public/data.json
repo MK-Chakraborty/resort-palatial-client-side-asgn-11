@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Ocean view",
+        "img": "https://i.ibb.co/G0JxCmL/Ocean-view.png",
+        "desp": "Oceanview means that you will be able to see the ocean from your room, but this does not mean your room will be directly facing the ocean, as with an oceanfront room. Additionally, an oceanview room can be located further inland, where an oceanfront room guarantees you accommodation near the water.An oceanview room is one where you’ll have a view of the ocean from your room. In this room category, the ocean will be visible from your room, but it may not necessarily be the first thing you see when you look outside.",
+        "btnClr": "#eba724",
+        "cost": 2000
+    },
+    {
+        "id": 2,
+        "title": "Pool view",
+        "img": "https://i.ibb.co/jvqZ48d/pool-view.png",
+        "desp": "Poolview means that you will be able to see the Pool from your room, but this does not mean your room will be directly facing the Pool, as with an Poolfront room. Additionally, an Poolview room can be located further inland, where an Poolfront room guarantees you accommodation near the water.An Poolview room is one where you’ll have a view of the Pool from your room. In this room category, the Pool will be visible from your room, but it may not necessarily be the first thing you see when you look outside.",
+        "btnClr": "#FF7044",
+        "cost": 1200
+    },
+    {
+        "id": 3,
+        "title": "Suits",
+        "img": "https://i.ibb.co/GvTnTD5/suite.png",
+        "desp": "A suite in a hotel or other public accommodation, such as a cruise ship denotes, according to most dictionary definitions, connected rooms under one room number. Hotels may refer to suites as a class of accommodations with more space than a typical hotel room, but technically speaking there should be more than one room to constitute a true suite. In luxury or upscale accommodations, such as Ritz Carlton, InterContinental, Marriott, Westin, Four Seasons, Shangri-La or St. Regis, key features may include multiple rooms. Many independent properties have one or more honeymoon suites. The most luxurious accommodation in a hotel is often called the presidential suite or royal suite.",
+        "btnClr": "#3F90FC",
+        "cost": 1800
+    },
+    {
+        "id": 4,
+        "title": "Family rooms",
+        "img": "https://i.ibb.co/CKzLgGm/family-room.png",
+        "desp": "A family room is an informal, all-purpose room in a house. The family room is designed to be a place where family and guests gather for group recreation like talking, reading, watching TV, and other family activities.[1][2] Often, the family room is located adjacent to the kitchen, and at times, flows into it with no visual breaks.[3] A family room often has doors leading to the back yard and specific outdoor living areas such as a deck, garden, or terrace.This big room would have furnishings and materials that were tough, for hard use, and it should be easy to clean.",
+        "btnClr": "#421FCF",
+        "cost": 2100
+    },
+    {
+        "id": 5,
+        "title": "Sofa bed",
+        "img": "https://i.ibb.co/Y0d8YXy/sofa-bed.png",
+        "desp": "At your service 24 hours a day, a sofa bed is a great way to save space and money. We have a lot of variety in our range. You'll find leather or fabric options, corner sofa beds, ones where you can choose your mattress and ones with covers you can remove to keep clean. The choice is yours! After a good night’s sleep, you can effortlessly convert your bedroom or guest room into a living room again. The built-in storage is easy to access and spacious enough to stow bedding, books and PJs.",
+        "btnClr": "#421FCF",
+        "cost": 1100
+    },
+    {
+        "id": 6,
+        "title": "Pool",
+        "img": "https://i.ibb.co/CWT7BKs/pool.png",
+        "desp": "A swimming pool, swimming bath, wading pool, paddling pool, or simply pool, is a structure designed to hold water to enable swimming or other leisure activities. Pools can be built into the ground (in-ground pools) or built above ground (as a freestanding construction or as part of a building or other larger structure), and may be found as a feature aboard ocean-liners and cruise ships. In-ground pools are most commonly constructed from materials such as concrete, natural stone, metal, plastic, or fiberglass, and can be of a custom size and shape or built to a standardized size, the largest of which is the Olympic-size swimming pool.",
+        "btnClr": "#3F90FC",
+        "cost": 2000
+    },
+    {
+        "id": 7,
+        "title": "Bar / lounge",
+        "img": "https://i.ibb.co/QPQmm4y/Bar-lounge.png",
+        "desp": "Step in out of the cold, cosy-up in one of our booths in the restaurant with some food, pull up a stool at the bar or head-out on to our heated terrace for some cocktails! You can book a table online & we do leave some tables for walk-ins. We hope to see you soon.Our bartenders have combined their knowledge, creativity & passion to create a unique selection of cocktails. We can't wait for you to try them.",
+        "btnClr": "#eba724",
+        "cost": 2080
+    },
+    {
+        "id": 8,
+        "title": "Beach view",
+        "img": "https://i.ibb.co/m6tv9mg/Beach-view.png",
+        "desp": "Beachview means that you will be able to see the Beach from your room, but this does not mean your room will be directly facing the Beach, as with an Beachfront room. Additionally, an Beachview room can be located further inland, where an Beachfront room guarantees you accommodation near the water.An Beachview room is one where you’ll have a view of the Beach from your room. In this room category, the Beach will be visible from your room, but it may not necessarily be the first thing you see when you look outside.",
+        "btnClr": "#FF7044",
+        "cost": 3000
+    },
+    {
+        "id": 9,
+        "title": "Bath / shower",
+        "img": "https://i.ibb.co/Rgtpv56/bath.png",
+        "desp": "The main difference between bath and shower is that bath means soaking your body in a tub filled with water to clean yourself, while shower means standing under a spray of water to clean yourself. However, people often use the terms bath and shower interchangeably, misinterpreting the actual meaning of the terminology. Compared to a bath, a shower may be better for sanitizing your body. However, baths are great for easing your muscles, energizing your nervous system, and moisturizing your skin. Furthermore, hot baths make your body feel less fatigue and help you to release your stress. Cooler showers boost your immunity and shed fat, while hot showers relax your muscles and release toxins.",
+        "btnClr": "#eba724",
+        "cost": 800
+    },
+    {
+        "id": 10,
+        "title": "Air conditioning",
+        "img": "https://i.ibb.co/Dz4TYks/Air-Condition.png",
+        "desp": "Air conditioning, often abbreviated as A/C or AC, is the process of removing heat and controlling the humidity of air in an enclosed space to achieve a more comfortable interior environment by use of powered air conditioners or a variety of other methods, including passive cooling and ventilative cooling. Air conditioning is a member of a family of systems and techniques that provide heating, ventilation, and air conditioning (HVAC). Air conditioners, which typically use vapor-compression refrigeration, range in size from small units used within vehicles or single rooms to massive units that can cool large buildings.[1][2] Air source heat pumps, which can be used for heating as well as cooling, are becoming increasingly common in cooler climates.",
+        "btnClr": "#eba724",
+        "cost": 700
+    },
+    {
+        "id": 11,
+        "title": "Desk",
+        "img": "https://i.ibb.co/283hRPN/desk.png",
+        "desp": "Some desks have the form of a table, although usually only one side of a desk is suitable to sit at (there are some exceptions, such as a partners desk),[3] unlike most usual tables. Some desks do not have the form of a table, for instance, an armoire desk[4] is a desk built within a large wardrobe-like cabinet, and a portable desk[5] is light enough to be placed on a person's lap. Since many people lean on a desk while using it, a desk must be sturdy. In most cases, people sit at a desk, either on a separate chair or a built-in chair (e.g., in some school desks). Some people use standing desks to be able to stand while using them.",
+        "btnClr": "#FF7044",
+        "cost": 600
+    },
+    {
+        "id": 12,
+        "title": "Blackout curtains",
+        "img": "https://i.ibb.co/LY2gKVt/Blackout-Curtains.png",
+        "desp": "Blackout curtains, shades and blinds all reduce energy costs by cutting the amount of sunlight and UV rays that enter the room. In addition, they protect furniture and floors from sun damage and fading, which makes these high-cost products more durable. Fabric for room darkening curtains has improved over the years, from that plastic-feeling polyester you probably remember from hotel curtains to softer, less static-prone options.Use blackout curtains, shades or blinds in rooms that get the most sunlight (and be sure to pull them during the hottest parts of the day), and in areas where you want no light penetration, like media rooms or home theaters.",
+        "btnClr": "#3F90FC",
+        "cost": 900
+    }
+]
