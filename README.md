@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Resort Palatial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site link (https://resort-assignment-11.web.app/).
 
-## Available Scripts
+## Details about this web app
 
-In the project directory, you can run:
+Welcome to Resort Palatials' website. There are several features on this site. Let's go through some of them. At the very first this site has a fascinating home page, which will attract users.  A user can book a service of Resort Palatial from the home page. But the user must have logged in. And there are some features for admin also.
 
-### `npm start`
+Let's go through some pointers which will give us a quick knowledge about this site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* This is a SPA (Single Page Application). So a user will get a very smooth experience while using this web app.  SIngle page applications don't take reload each time a user browse from one page to another.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* While a user will book a service from the home page, the user will be able to see his/her booked services from the 'My Bookings' page. The user will also be able to unbook a booked service from that page.
 
-### `npm test`
+* All bookings will be visible from the 'Manage Booking' page. Admin can view all bookings very easily from that page. Admin also can delete any amount of booked services if necessary.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Admin is also able to add new services. From the "Add New Service" page the admin can add new services. To add a new service, the admin must create a new service by providing all the necessary information.
 
-### `npm run build`
+* The backend of this web app is hosted at Heroku. This means the data of this site are actually coming directly from the internet. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* For the backend server this site is using Express JS. Express JS is a framework that makes using Node JS easier. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* This site is capable of CRUD (Create, Read, Update, Delete) operations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Each operation based on service in the frontend will be stored in or, deleted from the database.  MongoDB Atlas is being used as the database of this site.
