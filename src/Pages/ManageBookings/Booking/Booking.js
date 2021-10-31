@@ -12,16 +12,19 @@ const Booking = ({ booking }) => {
     }, [id])
 
     const handleClick = (id) => {
-        fetch(`https://young-everglades-55667.herokuapp.com/bookings/${id}`, {
-            method: 'DELETE'
-        })
-            .then(res => res.json())
-            .then(result => {
-                if (result.deletedCount) {
-                    alert('One Booking Deleted');
-                    window.location.reload()
-                }
-            });
+        const proceed = window.confirm('Are you sure, You wnat to delete?');
+        if (proceed) {
+            fetch(`https://young-everglades-55667.herokuapp.com/bookings/${id}`, {
+                method: 'DELETE'
+            })
+                .then(res => res.json())
+                .then(result => {
+                    if (result.deletedCount) {
+                        alert('One Booking Deleted');
+                        window.location.reload()
+                    }
+                });
+        }
     }
 
     return (

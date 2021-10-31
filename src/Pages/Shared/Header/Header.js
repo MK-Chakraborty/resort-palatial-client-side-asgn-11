@@ -29,7 +29,7 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
                             <NavLink to="/home" className="text-decoration-none"><h6 className="fs-6 fw-bold text-white px-3 py-2">Home</h6></NavLink>
-                            <NavLink to="/link" className="text-decoration-none"><h6 className="fs-6 fw-bold text-white px-3 py-2">{user.email ? "My Bookings" : "------"}</h6></NavLink>
+                            <NavLink to="/booking" className="text-decoration-none"><h6 className="fs-6 fw-bold text-white px-3 py-2">{user.email ? "My Bookings" : "------"}</h6></NavLink>
                             <NavLink to="/manage" className="text-decoration-none"><h6 className="fs-6 fw-bold text-white px-3 py-2">{user.email ? "Manage Bookings" : "------"}</h6></NavLink>
                             <NavLink to="/addService" className="text-decoration-none"><h6 className="fs-6 fw-bold text-white px-3 py-2">{user.email ? "Add New Service" : "------"}</h6></NavLink>
                         </Nav>

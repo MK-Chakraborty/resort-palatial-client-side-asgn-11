@@ -12,7 +12,7 @@ const Register = () => {
     // get current date
     const today = new Date().toLocaleDateString();
 
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
 
     const [offer, setOffer] = useState([]);
     useEffect(() => {
@@ -32,7 +32,8 @@ const Register = () => {
             .then(res => res.json())
             .then(result => {
                 if(result.insertedId) {
-                    alert('Congratulation!!! Your Payment Is Complete. Please provide your ID at reception while check in. Thank You!')
+                    alert('Congratulation!!! Your Payment Is Complete. Please provide your ID at reception while check in. Thank You!');
+                    reset();
                 }
             });
     };

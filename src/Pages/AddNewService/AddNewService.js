@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 
 const AddNewService = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
 
     const onSubmit = data => {
         fetch('https://young-everglades-55667.herokuapp.com/offers', {
@@ -17,6 +17,7 @@ const AddNewService = () => {
             .then(result => {
                 if(result.insertedId) {
                     alert('Congratulation!!! New service added.');
+                    reset();
                 }
             });
     };
